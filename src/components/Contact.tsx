@@ -26,7 +26,7 @@ const Contact = () => {
       icon: <Linkedin className="w-6 h-6" />,
       title: "LinkedIn", 
       content: "ajay-sonkar",
-      link: "https://linkedin.com/in/ajay-sonkar",
+      link: "https://www.linkedin.com/in/ajay-sonkar-354376317",
       gradient: "from-blue-600/10 to-blue-700/20",
       iconColor: "text-blue-700"
     },

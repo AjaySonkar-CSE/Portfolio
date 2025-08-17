@@ -68,8 +68,8 @@ const Hero = () => {
               className="secondary-gradient text-white border-0 hover:scale-105 transition-all duration-300 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-full"
               asChild
             >
-              <a href="#projects">
-                Get Started
+              <a href="#contact">
+                Hire Me
               </a>
             </Button>
             
@@ -89,14 +89,14 @@ const Hero = () => {
           
           {/* Stats */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 pt-6 lg:pt-8">
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2">
+            {/* <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2">
               <div className="flex -space-x-1 sm:-space-x-2">
                 <div className="w-6 h-6 sm:w-8 sm:h-8 bg-secondary rounded-full border-2 border-white"></div>
                 <div className="w-6 h-6 sm:w-8 sm:h-8 bg-accent rounded-full border-2 border-white"></div>
                 <div className="w-6 h-6 sm:w-8 sm:h-8 bg-primary rounded-full border-2 border-white"></div>
               </div>
               <span className="text-white font-semibold ml-2 text-sm sm:text-base">Best Customer</span>
-            </div>
+            </div> */}
             
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 py-2">
               <div className="flex items-center gap-1">
@@ -141,34 +141,45 @@ const Hero = () => {
           </div>
           
           {/* About info card */}
-          <div className="absolute bottom-[-120px] left-1/2 -translate-x-1/2 sm:left-auto sm:right-8 sm:bottom-[-140px] lg:right-12 lg:bottom-[-160px] bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-xl max-w-[280px] sm:max-w-xs animate-float z-20" style={{ animationDelay: '1s' }}>
-            <div className="flex items-start gap-3 sm:gap-4">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
-                <div className="w-5 h-5 sm:w-6 sm:h-6 bg-primary rounded-full"></div>
-              </div>
-              <div>
-                <h4 className="font-bold text-gray-900 mb-1 text-sm sm:text-base">Designing Solutions, Not Just Visuals</h4>
-                <p className="text-xs sm:text-sm text-gray-600 mb-3">
-                  Experienced in creating user-focused solutions with modern technologies and machine learning.
-                </p>
-                <div className="space-y-1 sm:space-y-2">
-                  <div className="flex items-center gap-2 text-xs sm:text-sm">
-                    <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-secondary rounded-full"></div>
-                    <span className="text-gray-700">10+ Complete Project</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-xs sm:text-sm">
-                    {/* <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-accent rounded-full"></div> */}
-                    {/* <span className="text-gray-700">4+ Years of Experience</span> */}
-                  </div>
-                </div>
-                <Button size="sm" className="mt-3 sm:mt-4 secondary-gradient text-white border-0 rounded-full px-4 sm:px-6 text-xs sm:text-sm">
-                  <a href="#contact">
-                    Contact Us
-                  </a>
-                </Button>
-              </div>
-            </div>
-          </div>
+          {/* About info card */}
+<div className="
+  relative 
+  mt-6 sm:absolute sm:bottom-[-140px] sm:right-6
+  lg:right-9 lg:bottom-[-160px] 
+  bg-white rounded-2xl sm:rounded-3xl 
+  p-4 sm:p-6 shadow-xl 
+  max-w-[90%] sm:max-w-xs 
+  animate-float z-20
+" style={{ animationDelay: '1s' }}>
+  <div className="flex items-start gap-3 sm:gap-4">
+    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+      <div className="w-5 h-5 sm:w-6 sm:h-6 bg-primary rounded-full"></div>
+    </div>
+    <div>
+      <h4 className="font-bold text-gray-900 mb-1 text-sm sm:text-base">
+        Designing Solutions, Not Just Visuals
+      </h4>
+      <p className="text-xs sm:text-sm text-gray-600 mb-3">
+        Experienced in creating user-focused solutions with modern technologies and machine learning.
+      </p>
+      <div className="space-y-1 sm:space-y-2">
+        <div className="flex items-center gap-2 text-xs sm:text-sm">
+          <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-secondary rounded-full"></div>
+          <span className="text-gray-700">10+ Complete Project</span>
+        </div>
+      </div>
+      <Button 
+        size="sm" 
+        className="mt-3 sm:mt-4 secondary-gradient text-white border-0 rounded-full px-4 sm:px-6 text-xs sm:text-sm w-full sm:w-auto"
+      >
+        <a href="#contact">
+          Contact Us
+        </a>
+      </Button>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
       

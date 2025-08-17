@@ -83,7 +83,7 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
               <span className="font-bold text-gray-900 text-base md:text-lg text-left sm:text-left">HTML</span>
               <div className="flex items-center gap-2 sm:gap-4">
-                <div className="flex-1 sm:w-48 md:w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
+                <div className="flex-1 sm:w-48 md:w-64 h-1.5 bg-gray-200 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '90%' }}></div>
                 </div>
                 <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">90%</span>
@@ -94,10 +94,10 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
               <span className="font-bold text-gray-900 text-base md:text-lg text-left sm:text-left">CSS</span>
               <div className="flex items-center gap-2 sm:gap-4">
-                <div className="flex-1 sm:w-48 md:w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '60%' }}></div>
+                <div className="flex-1 sm:w-48 md:w-64 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '90%' }}></div>
                 </div>
-                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">60%</span>
+                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">90%</span>
               </div>
             </div>
 
@@ -105,10 +105,10 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
               <span className="font-bold text-gray-900 text-base md:text-lg text-left sm:text-left">JavaScript</span>
               <div className="flex items-center gap-2 sm:gap-4">
-                <div className="flex-1 sm:w-48 md:w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '80%' }}></div>
+                <div className="flex-1 sm:w-48 md:w-64 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '50%' }}></div>
                 </div>
-                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">80%</span>
+                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">50%</span>
               </div>
             </div>
 
@@ -116,10 +116,10 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
               <span className="font-bold text-gray-900 text-base md:text-lg text-left sm:text-left">MongoDB</span>
               <div className="flex items-center gap-2 sm:gap-4">
-                <div className="flex-1 sm:w-48 md:w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '50%' }}></div>
+                <div className="flex-1 sm:w-48 md:w-64 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '10%' }}></div>
                 </div>
-                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">50%</span>
+                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">10%</span>
               </div>
             </div>
 
@@ -127,10 +127,10 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
               <span className="font-bold text-gray-900 text-base md:text-lg text-left sm:text-left">Java</span>
               <div className="flex items-center gap-2 sm:gap-4">
-                <div className="flex-1 sm:w-48 md:w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '50%' }}></div>
+                <div className="flex-1 sm:w-48 md:w-64 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '90%' }}></div>
                 </div>
-                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">50%</span>
+                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">90%</span>
               </div>
             </div>
 
@@ -138,10 +138,10 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
               <span className="font-bold text-gray-900 text-base md:text-lg text-left sm:text-left">Python</span>
               <div className="flex items-center gap-2 sm:gap-4">
-                <div className="flex-1 sm:w-48 md:w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '85%' }}></div>
+                <div className="flex-1 sm:w-48 md:w-64 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '90%' }}></div>
                 </div>
-                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">85%</span>
+                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">90%</span>
               </div>
             </div>
 
@@ -149,10 +149,10 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
               <span className="font-bold text-gray-900 text-base md:text-lg text-left sm:text-left">ReactJS</span>
               <div className="flex items-center gap-2 sm:gap-4">
-                <div className="flex-1 sm:w-48 md:w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '75%' }}></div>
+                <div className="flex-1 sm:w-48 md:w-64 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '50%' }}></div>
                 </div>
-                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">75%</span>
+                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">50%</span>
               </div>
             </div>
 
@@ -160,10 +160,10 @@ const Services = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
               <span className="font-bold text-gray-900 text-base md:text-lg text-left sm:text-left">Express Node</span>
               <div className="flex items-center gap-2 sm:gap-4">
-                <div className="flex-1 sm:w-48 md:w-64 h-2 bg-gray-200 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '70%' }}></div>
+                <div className="flex-1 sm:w-48 md:w-64 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full" style={{ width: '50%' }}></div>
                 </div>
-                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">70%</span>
+                <span className="font-bold text-gray-900 min-w-[2.5rem] sm:min-w-[3rem] text-right text-sm md:text-base">50%</span>
               </div>
             </div>
           </div>

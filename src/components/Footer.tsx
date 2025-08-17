@@ -69,7 +69,7 @@ const Footer = () => {
             <h4 className="text-base sm:text-lg font-semibold">Connect With Me</h4>
             <div className="flex gap-3 sm:gap-4">
               <a 
-                href="https://linkedin.com/in/ajay-sonkar" 
+                href="https://www.linkedin.com/in/ajay-sonkar-354376317" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 sm:p-3 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-all duration-300 hover:scale-110"

@@ -5,15 +5,15 @@ import { GraduationCap, Calendar, MapPin, Trophy, Users } from "lucide-react";
 const About = () => {
   const achievements = [
     {
-      number: "30+",
+      number: "10+",
       label: "Complete Project",
       description: "Successfully delivered projects across various domains"
     },
-    {
-      number: "4+",
-      label: "Years of Experience", 
-      description: "Continuous learning and professional development"
-    },
+    // {
+    //   number: "4+",
+    //   label: "Years of Experience", 
+    //   description: "Continuous learning and professional development"
+    // },
     {
       number: "1",
       label: "Hackathon Win",
